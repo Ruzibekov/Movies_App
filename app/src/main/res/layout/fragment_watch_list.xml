@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginHorizontal="24dp">
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_left"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/textStyle.Montserrat.600"
+            android:layout_gravity="center"
+            android:text="@string/watch_list"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        app:cardCornerRadius="16dp">
+
+        <EditText
+            style="@style/textStyle.Montserrat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dark_gray"
+            android:drawableEnd="@drawable/ic_search_right"
+            android:drawableTint="@color/gray"
+            android:hint="@string/search"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:paddingVertical="10dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="true"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="24dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="2"
+        tools:listitem="@layout/item_search" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:src="@drawable/ic_magic_box"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/textStyle.Montserrat.600"
+            android:layout_marginTop="16dp"
+            android:text="@string/no_watch_list_title"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/textStyle.Montserrat.500"
+            android:layout_width="250dp"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="5sp"
+            android:text="@string/no_watch_list_desc"
+            android:textAlignment="center"
+            android:textColor="@color/light_gray"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

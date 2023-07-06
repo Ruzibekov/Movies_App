@@ -9,5 +9,7 @@
     <string name="watch_list">Watch list</string>
     <string name="no_result_title">we are sorry, we can not find the movie :(</string>
     <string name="no_result_desc">Find your movie by Type title, categories, years, etc </string>
+    <string name="no_watch_list_title">There is no movie yet!</string>
+    <string name="no_watch_list_desc">Find your movie by Type title, categories, years, etc </string>
 
 </resources>
