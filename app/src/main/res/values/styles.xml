@@ -7,20 +7,20 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
-    <style name="textStyle.Poppins">
-        <item name="android:fontFamily">@font/ft_poppins_regular</item>
+    <style name="textStyle.Montserrat">
+        <item name="android:fontFamily">@font/ft_montserrat_regular</item>
     </style>
 
-    <style name="textStyle.Poppins.500">
-        <item name="android:fontFamily">@font/ft_poppins_medium</item>
+    <style name="textStyle.Montserrat.500">
+        <item name="android:fontFamily">@font/ft_montserrat_medium</item>
     </style>
 
-    <style name="textStyle.Poppins.600">
-        <item name="android:fontFamily">@font/ft_poppins_semibold</item>
+    <style name="textStyle.Montserrat.600">
+        <item name="android:fontFamily">@font/ft_montserrat_semibold</item>
     </style>
 
-    <style name="textStyle.Poppins.700">
-        <item name="android:fontFamily">@font/ft_poppins_bold</item>
+    <style name="textStyle.Montserrat.700">
+        <item name="android:fontFamily">@font/ft_montserrat_bold</item>
     </style>
 
 </resources>

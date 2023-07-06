@@ -3,9 +3,8 @@
 
     <string name="title_main">What do you want to watch?</string>
 
-    <string name="menu_item_home">Home</string>
-    <string name="menu_item_search">Search</string>
-    <string name="menu_item_watch_list">Watch list</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="watch_list">Watch list</string>
 
-    <string name="hint_search">Search</string>
 </resources>
