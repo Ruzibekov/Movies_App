@@ -5,6 +5,7 @@
 
     <string name="home">Home</string>
     <string name="search">Search</string>
+    <string name="details">Details</string>
     <string name="watch_list">Watch list</string>
     <string name="no_result_title">we are sorry, we can not find the movie :(</string>
     <string name="no_result_desc">Find your movie by Type title, categories, years, etc </string>
