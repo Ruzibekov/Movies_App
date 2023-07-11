@@ -25,10 +25,6 @@ class SplashFragment : Fragment(R.layout.fragment_splash){
             transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
             transaction.replace(R.id.root_container, MainFragment())
             transaction.commit()
-//            fragmentManager
-//                ?.beginTransaction()
-//                ?.replace(R.id.root_container, MainFragment())
-//                ?.commit()
         },2600)
     }
 }

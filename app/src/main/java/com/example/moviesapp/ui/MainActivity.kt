@@ -1,8 +1,7 @@
 package com.example.moviesapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.FrameLayout
+import androidx.appcompat.app.AppCompatActivity
 import com.example.moviesapp.R
 import com.example.moviesapp.ui.splash.SplashFragment
 
