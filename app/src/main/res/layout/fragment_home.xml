@@ -11,6 +11,7 @@
         style="@style/textStyle.Montserrat.600"
         android:layout_marginBottom="24dp"
         android:paddingHorizontal="24dp"
+        android:layout_marginTop="42dp"
         android:text="@string/title_main"
         android:textColor="@color/white"
         android:textSize="18sp" />
