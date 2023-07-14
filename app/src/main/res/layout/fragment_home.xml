@@ -85,5 +85,11 @@
             android:textColor="@color/light_gray"
             android:textSize="12sp" />
 
+        <Button
+            android:id="@+id/btn_open_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open details screen"/>
+
     </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>
