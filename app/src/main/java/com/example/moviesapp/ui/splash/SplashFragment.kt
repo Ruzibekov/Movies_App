@@ -19,7 +19,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash){
     private fun openMainFragment() {
         Handler(Looper.getMainLooper()).postDelayed({
             val transaction = parentFragmentManager.beginTransaction()
-            transaction.replace(R.id.root_container, MainFragment())
+            transaction.replace(R.id.main_fragment_container, MainFragment())
             transaction.commit()
         },2600)
     }

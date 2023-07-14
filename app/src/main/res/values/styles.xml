@@ -23,4 +23,22 @@
         <item name="android:fontFamily">@font/ft_montserrat_bold</item>
     </style>
 
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabGravity">center</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabIndicatorColor">@color/dark_gray</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/light_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="fontFamily">@font/ft_montserrat_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
 </resources>
