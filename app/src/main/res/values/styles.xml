@@ -23,6 +23,22 @@
         <item name="android:fontFamily">@font/ft_montserrat_bold</item>
     </style>
 
+    <style name="textStyle.Poppins">
+        <item name="android:fontFamily">@font/ft_poppins_regular</item>
+    </style>
+
+    <style name="textStyle.Poppins.500">
+        <item name="android:fontFamily">@font/ft_poppins_medium</item>
+    </style>
+
+    <style name="textStyle.Poppins.600">
+        <item name="android:fontFamily">@font/ft_poppins_semibold</item>
+    </style>
+
+    <style name="textStyle.Poppins.700">
+        <item name="android:fontFamily">@font/ft_poppins_bold</item>
+    </style>
+
     <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabTextAppearance">@style/MyCustomTextAppearance</item>
         <item name="tabMode">scrollable</item>
